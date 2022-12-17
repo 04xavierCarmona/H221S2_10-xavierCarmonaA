@@ -1,4 +1,4 @@
-const url = "http://54.160.18.109:3000/api/EDUCANDO/";
+const url = "http://localhost:3000/api/EDUCANDO/";
 let resultados = '';
 const formArticulo = document.querySelector("form");
 const userped = document.getElementById("USERPED");
