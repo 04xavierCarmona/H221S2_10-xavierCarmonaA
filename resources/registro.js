@@ -8,7 +8,7 @@ const fooped = document.getElementById("FOODPED");
 const msgped = document.getElementById("MSGPED");
 var opcion = '';
 
-btnCrear.addEventListener('click', () => {
+btn.addEventListener('click', () => {
     console.log("Acción de listar activada");
     opcion = 'crear';
 });
