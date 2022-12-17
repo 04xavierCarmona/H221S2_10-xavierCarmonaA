@@ -6,13 +6,10 @@ var cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-app.use(express.static(__dirname + '/'));
-
-
-var conexion = mysql.createConnection({           //jesus
-    host: "54.160.18.109",
-    user: "carmona",
-    password: "xavier",
+var conexion = mysql.createConnection({
+    host: "localhost",
+    user: "root",
+    password: "70925702Xca",
     database: "REGISTRATE",
   });
   conexion.connect(function (error) {
